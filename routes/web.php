@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/', function () {
-    return view('index');  // welcomからindexへ変更
+    return view('app');  // 
 });
 
 
